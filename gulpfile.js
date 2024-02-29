@@ -14,7 +14,7 @@ const sass = gulpSass(dartSass);
 
 function compileSass() {
   return src("src/sass/*.sass")
-    .pipe(sass()) // Specify sass compiler here too
+    .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer())
     .pipe(cleanCSS())
     .pipe(dest("dist/css"));
