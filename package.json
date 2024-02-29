@@ -1,0 +1,30 @@
+{
+  "name": "assignment-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^5.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "nodemon": "^3.1.0"
+  }
+}

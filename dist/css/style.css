@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  text-align: center;
+}
+a {
+  text-align: center;
+}
+a .c {
+  display: flex;
+  flex-direction: row;
+}
